@@ -11,7 +11,7 @@ data class Animal(
     val distance: Float,
     val environment: Environment,
     val gender: String,
-    val organization: Organization, // it should be update to Organization Entity
+    val organization: Organization,
     val published_at: LocalDateTime,
     val adoptionStatus: AdoptionStatus,
     val tags: List<String>,
